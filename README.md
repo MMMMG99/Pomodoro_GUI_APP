@@ -1,1 +1,3 @@
 # Pomodoro_GUI_APP
+
+In cadrul acestui proiect s-a creat o aplicatie cu interfata grafica cu scopul imbuntatirii productivitatii utilizatorului. Dupa ce acesta apa butonul start, va incepe un cronometru pentru munca de durata a 25 de minute. Dupa ce expira cele 25 minute, cronometrul va trece pe modul de pauza de 5 minute. Ciclul de munca-pauza se va repeta de 3 ori, iar dupa terminarea celei de-al 4-lea ciclu de munca, va urma o pauza lunga cu durata a 20 de minute. De mentionat este ca dupa fiecare perioada de munca dusa la capat va aparea o bifa. In cazul in care utilizatorul vrea sa o ia de la inceput este suficient ca acesta sa apese pe butonul de reset, iar progresul facut pana acum de acesta pe durata ciclului inceput de la apasarea butonului start va fi sters.

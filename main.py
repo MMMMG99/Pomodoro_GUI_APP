@@ -1,5 +1,5 @@
 from tkinter import *
-# ---------------------------- CONSTANTS ------------------------------- #
+
 PINK = "#e2979c"
 RED = "#e7305b"
 GREEN = "#9bdeac"
@@ -11,7 +11,7 @@ LONG_BREAK_MIN = 20
 reps = 0
 timer1 = None
 
-# ---------------------------- TIMER RESET ------------------------------- #
+
 def reset_timer():
     global reps
     reps = 0
@@ -21,7 +21,7 @@ def reset_timer():
     timer.config(text='Timer', )
 
 
-# ---------------------------- TIMER MECHANISM ------------------------------- #
+
 def start_timer():
     global reps
     reps += 1
@@ -36,7 +36,7 @@ def start_timer():
         timer.config(text='Work', fg=GREEN)
         countdown(WORK_MIN * 60)
 
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
+
 def countdown(count):
     count_minute = count // 60
     count_seconds = count % 60
@@ -59,14 +59,10 @@ def countdown(count):
             check.config(text=noua_valoare)
         start_timer()
 
-# ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Rosia productiva")
 window.config(padx=100, pady=50, bg=YELLOW)
 
-
-#canvas widget
-#putem pune lucruri unele peste altele
 
 timer = Label(text='Timer', font=(FONT_NAME, 35, 'bold'), bg=YELLOW, fg=GREEN)
 timer.grid(row=0, column=1)
